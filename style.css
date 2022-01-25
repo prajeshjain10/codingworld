@@ -1,0 +1,181 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.div{
+    position: sticky;
+    height: 60px;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.div img{
+    width: 3.5%;
+    border-radius: 50px;
+}
+ul{ width: 75%;
+    display: flex;
+}
+.li{  
+    list-style: none;
+    margin: 3%;
+    padding: 0%; 
+}
+li a{
+   
+    color: white;
+    text-decoration: none;
+}
+
+.serach{
+  
+    padding: 6px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+}
+.sbtn{
+    margin-left: 14px;
+    padding: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: sans-serif;
+    border-radius: 12px;
+}
+.card{    
+    font-family: fantasy;
+    font-size: 22px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+}
+h1{
+    text-align: center;
+    align-items: center;
+}
+.card1{
+    font-family: fantasy;
+    text-align: center;
+    margin: 3%;
+    width: 25%;       
+    border: solid;
+    box-sizing: content-box;
+    border-radius: 12px;
+}
+.card1 img{
+    width: 100%;
+    height: 90%;
+}
+.card2{
+    font-family: fantasy;
+    text-align: center;
+    margin: 3%;
+    width: 25%; 
+    border: solid;
+    box-sizing: content-box;
+    border-radius: 12px;
+}
+.card2 img{
+    width: 100%;
+    height: 90%;
+}
+
+.card3{
+    font-family: fantasy;
+    text-align: center;
+    margin: 3%;
+    width: 25%;
+    border: solid;
+    box-sizing: content-box;
+    border-radius: 12px;
+}
+.card3 img{
+    width: 100%;
+    height: 90%;
+}
+.card4{
+    font-family: fantasy;
+    text-align: center;
+    margin: 3%;
+    width: 25%; 
+    border: solid;
+    box-sizing: content-box;
+    border-radius: 12px;
+}
+.card4 img{
+    width: 100%;
+    height: 90%;
+}
+.client{
+    
+    font-family: fantasy;
+    font-size: 20px;
+    width: 100%;
+    
+}
+input[type=text], select, textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px; 
+    border: 1px solid black;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 10px; 
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+    resize: vertical 
+  }
+  input[type=submit] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #04AA6D;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+     
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 15px;
+  }
+  .new{
+      height: 263px;
+      background-color: #45a049;
+  }
+.footer{
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 40px;
+    width: 100%;
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.h1,h2{
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.para{
+    font-family: sans-serif;
+    font-size: 16px;
+}
